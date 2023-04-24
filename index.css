@@ -1,0 +1,99 @@
+.navbar-logo
+               {
+                  width: 40px;
+               }
+
+              .background 
+              {
+                  object-fit: contain;
+                  width: 1300px;
+              }
+              .box1
+              {
+                  
+                  
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+                  column-gap : 20px; 
+                  
+                 
+                
+              }  
+              .box2:hover
+              {
+                  color: blueviolet;
+                
+                   margin : 10px ;
+
+                  background-color: palevioletred;
+                 
+              }   
+              .box2
+              {   
+                color:  palevioletred;
+                  font-size: 50px;
+                  display: inline;
+                  padding: 50px;
+                  text-align : center;
+                  background-color: blueviolet;
+                  margin : 20px ;
+                  transition: 0.6s;
+
+              } 
+              .Firstlevel
+              {
+                display: inline;
+
+              }
+              .Zerolevel
+              {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr ;
+                  margin-top: 30px;
+              }
+              .box4
+              {
+                display: inline;
+                
+                background : rgb(109, 109, 242) ;
+                margin : 20px;
+                padding : 30px;
+                transition: 0.5s;
+
+                
+              }
+              .box3
+              {
+                display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+                  column-gap : 20px; 
+              }
+              .img-box4
+              {
+                 
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 20%;
+                                
+              }
+              .box4:hover
+              {
+                margin : 10px;
+                padding : 20px;
+                
+              }  
+              .par-box4
+              {
+                 text-align: bottom;
+                 text-align: center;
+              }
+              .card-img
+              {
+                 opacity: 0.3 ;
+
+              }
+              .card-img:hover
+              {
+                 opacity: 1 ;   
+             }
